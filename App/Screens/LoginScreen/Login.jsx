@@ -14,8 +14,6 @@ export default function Login() {
     //const { startOAuthFlow } = useOAuth({ strategy:"oauth_google"});
     
     const { startOAuthFlow } = useOAuth({ strategy: "oauth_google" });
-   
-    console.log(startOAuthFlow);
     
     const onPress = React.useCallback(async () => {
         try {
